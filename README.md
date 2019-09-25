@@ -58,10 +58,8 @@ Steps for the implementation are below:
     
 ###    Approach:
 Initialize neural network with two layers one with 3 neurons and other one is single neuron
-layered.
-Initialized the weight vectors with an additional column for bias. As I am taking the weigh vector
-as row matrix and not taking transpose while calculating w transpose x.
-There is a parameter Activvation_func which takes the name of activation function use string
-(tanh,sigmoid,relu) for different activation function.
-Currently I am using tanh on first layer and sigmoid on the second one. And the accuracy is
-100%.
+layered. <br />
+Initialized the weight vectors with an additional column for bias. As I am taking the weigh vector as row matrix and not taking transpose while calculating w transpose x. <br />
+![](Images/Capture.JPG)
+There is a parameter Activvation_func which takes the name of activation function use string (tanh,sigmoid,relu) for different activation function. <br />
+Currently I am using tanh on first layer and sigmoid on the second one. And the accuracy is 100%. <br />
